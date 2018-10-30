@@ -6,4 +6,76 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+  background-color: #f3f8f2;
+}
+
+header {
+  text-align: center;
+  background-color: #fcb07e;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  background-color: #3581b8;
+  padding: 1rem;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+}
+
+.results-section {
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  background-color: #ccc;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.player-section button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.results-section button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.player-section button:hover {
+  box-shadow: 0 0 10px 10px #aef4af;
+}
+
+.results-section button:hover {
+  box-shadow: 0 0 10px 10px #aef4af;
 }
