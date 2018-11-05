@@ -77,5 +77,41 @@ button {
 }
 
 .results-section button:hover {
+  box-shadow: 0 0 10px 10px #d2aef4;
+}
+
+.green-glow {
   box-shadow: 0 0 10px 10px #aef4af;
+}
+
+.red-glow {
+  box-shadow: 0 0 10px 10px #f02525;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  button {
+    width: 90px;
+    height: 40px;
+    padding: 10px 15px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
 }
